@@ -7,3 +7,4 @@ class Clothing(models.Model):
     description = models.CharField(max_length=32, default="Please Enter a Brief Description", editable=True)
     color = models.CharField(max_length=32, default="Enter Color Here", editable=True)
     color_type = models.CharField(max_length=32, default="Enter color based on color type. See Attached Image", editable=True)
+    image = models.CharField(max_length=255, default="Enter color based on color type. See Attached Image", editable=True)
